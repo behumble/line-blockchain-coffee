@@ -1,0 +1,24 @@
+{
+  "name": "line-coffee",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "accounting": "^0.4.1",
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "line-login": "^1.0.14",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "nuxt": "^2.14.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
