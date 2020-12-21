@@ -109,7 +109,7 @@ async function userPostCommitRequest(requestSessionToken) {
     const timestamp = new Date().getTime().toString()
     const nonce = timestamp.slice(-8)
     const signature = generateSignature(nonce, timestamp, 'POST', uri, null)
-    const lbpResp = await axios.post(url, {}, {
+    const lbpResp = await axios.post(url, null, {
         headers: {
             timestamp,
             'service-api-key': _apiKey,
